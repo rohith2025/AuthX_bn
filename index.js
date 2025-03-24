@@ -8,7 +8,7 @@ const PORT = 3000;
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect('<MogngoUrl>', {
+mongoose.connect('mongodb+srv://yelurirohith2025:WYJPNkGLOKGWPq2u@cluster0.f05nm.mongodb.net/AuthXDB?retryWrites=true&w=majority&appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
